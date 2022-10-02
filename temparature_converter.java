@@ -17,7 +17,7 @@ public class temparature_converter {
         System.out.println("For Kelvin to Celcious     press 5");
         System.out.println("For Kelvin to farenhight   press 6");
         
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in); // working on it.. it is not complete..
         int x = sc.nextInt();
         if (x=1) {
             System.out.println("Enter the Celcious value :");
