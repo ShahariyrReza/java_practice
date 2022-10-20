@@ -6,6 +6,7 @@ import java.util.Scanner;
 /**
  *
  * @author shahariyr reza
+ * @working on it..
  */
 public class temparature_converter {
     public static void main(String[] args) {
@@ -75,4 +76,4 @@ public class temparature_converter {
         }
     }
 }
-//This in not even the final stage.. here two bug is available
+
