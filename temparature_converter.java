@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author shahariyr reza
+ * @author shahariyr
  */
 public class temparature_converter {
     public static void main(String[] args) {
