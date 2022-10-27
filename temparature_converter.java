@@ -6,11 +6,12 @@ import java.util.Scanner;
 /**
  *
  * @author shahariyr reza
- * @working on it..
  */
 public class temparature_converter {
     public static void main(String[] args) {
-        
+        for (int i = 0; i < 10; i++) {
+            
+        System.out.println("\n \n");
         System.out.println("For Celcious to Farenhight press 1");
         System.out.println("For Celcious to Kelvin     press 2");
         System.out.println("For Farenhight to Celcious press 3");
@@ -50,7 +51,7 @@ public class temparature_converter {
                     Scanner input = new Scanner(System.in);
                     double far,kel;
                     far = input.nextDouble();
-                    kel = (0.555555556 * far) + 241.15;
+                    kel = (far - 32)* 0.5555555555555556 +273.15; //(far − 32) * 5/9 + 273.15;
                     System.out.println("Kelvin value is :"+kel);
                 }
             case 5 ->                 {
@@ -66,7 +67,7 @@ public class temparature_converter {
                     Scanner input = new Scanner(System.in);
                     double kel,far;
                     kel = input.nextDouble();
-                    far = 1.8 * kel - 241.15;
+                    far = (kel - 273.15) * 1.8 + 32;
                     System.out.println("Farenhight value is :"+far);
                 }
             
@@ -74,6 +75,6 @@ public class temparature_converter {
                    
             }
         }
+        }
     }
 }
-
