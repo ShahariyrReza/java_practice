@@ -14,5 +14,8 @@ public class bitwise_operator {
         c= a|b;
         System.out.println("Result :"+c);
         
+        c= a^b;
+        System.out.println("Result :"+c);
+        
     }
 }
