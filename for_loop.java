@@ -10,7 +10,7 @@ public class for_loop {
         System.out.println("Learning for Lopp");
         
         for (int i = 0; i < 10; i++) {
-            System.out.println( i+"\s My name is shahariyr ");
+            System.out.println( i+"\s My name is shahariyr "); // \s is a special entity, and it is for make a space in the line  . 
         }
     }
 }
