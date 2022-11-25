@@ -1,4 +1,4 @@
-package mycompany.myproject1;
+package basic_java;
 
 import java.util.Scanner;
 
