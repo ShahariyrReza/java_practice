@@ -16,6 +16,7 @@ public class data_type {
         float f = 12.2f;
         double d = 23.2;
         String k ="Shahariyr reza";
+        int x = 121;
                 
         System.out.println("boolean value is "+b);
         System.out.println("char value is "+c);
